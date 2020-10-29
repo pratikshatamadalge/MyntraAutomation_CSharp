@@ -13,7 +13,9 @@ namespace MyntraAutomation.Base
         [OneTimeSetUp]
         public void Setup()
         {
-            driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+            options.AddArguments("start-maximized","--incognito","disable notification");
+            driver = new ChromeDriver(options);
             driver.Url = "https://www.myntra.com/?utm_source=Google";
         }
 
