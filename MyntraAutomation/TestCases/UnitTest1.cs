@@ -1,14 +1,9 @@
 using NUnit.Framework;
-
+using MyntraAutomation.Base;
 namespace MyntraAutomation
 {
-    public class Tests
+    public class Tests : BaseClass
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [Test]
         public void Test1()
         {
