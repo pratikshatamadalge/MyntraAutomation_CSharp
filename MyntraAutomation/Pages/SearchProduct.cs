@@ -19,7 +19,7 @@ namespace MyntraAutomation.Pages
         public void SearchPage()
         {
             Thread.Sleep(3000);
-            SearchBox.SendKeys("Roadsters shoes");
+            SearchBox.SendKeys("Roadsters shoes"+Keys.Enter);
         }
     }
 }
