@@ -1,10 +1,9 @@
-﻿using AventStack.ExtentReports;
-using NUnit.Framework;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-
-namespace MyntraAutomation.Base
+﻿namespace MyntraAutomation.Base
 {
+    using AventStack.ExtentReports;
+    using NUnit.Framework;
+    using OpenQA.Selenium;
+    using OpenQA.Selenium.Chrome;
     public class BaseClass
     {
         public ExtentReports extent;
