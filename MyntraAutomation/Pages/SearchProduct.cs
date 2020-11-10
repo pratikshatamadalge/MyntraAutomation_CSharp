@@ -1,9 +1,8 @@
-﻿using OpenQA.Selenium;
-using SeleniumExtras.PageObjects;
-using System.Threading;
-
-namespace MyntraAutomation.Pages
+﻿namespace MyntraAutomation.Pages
 {
+    using OpenQA.Selenium;
+    using SeleniumExtras.PageObjects;
+    using System.Threading;
     public class SearchProduct
     {
         public IWebDriver driver;
